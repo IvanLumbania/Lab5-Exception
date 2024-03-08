@@ -29,6 +29,7 @@ namespace Lab5_Exception
 
                 }
                 Radius = this.Radius;
+                Console.WriteLine($"{Radius} is valid!  ");
             }
             catch(InvalidRadiusException ex)
             {
